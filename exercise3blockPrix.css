@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: purple;
+    align-content: center;
+}
+.blocks {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.block {
+    width: 377px;
+    height: 468px;
+    background-color: rgb(70, 70, 82);
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 0;
+}
+
+.bandeau {
+    height: 80px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    align-content: center;
+}
+
+.bandeau h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+.basic {
+    background-color:#0091e1
+} 
+.pro {
+    background-color:#ed4c5c
+}
+.premium {
+    background-color:#ffc04e
+}
+.prix {
+    text-align: center;
+    color: white;
+    height: 137px;
+    align-content: center;
+}
+
+.devise {
+    font-size: 14px;
+}
+
+.montant {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.centimes {
+    font-size: 14px;
+}
+
+.periode {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+.ligne {
+    text-align: center;
+    color: #7a95c8;
+    font-size: 14px;
+    border-top: 1px solid #7a95c8;
+    border-bottom: 1px solid #7a95c8;
+    padding: 3px 0;
+    margin: 0;
+}
+
+.bouton {
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
